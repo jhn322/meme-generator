@@ -69,3 +69,7 @@ header {
   border: none;
   cursor: pointer;
 }
+
+.meme-img {
+  width: 80%;
+}
