@@ -1,6 +1,6 @@
-## Preview website:
+# Meme Generator:
 
-[Netlify](https://jhn-meme-generator.netlify.app/)
+[Preview on Netlify](https://jhn-meme-generator.netlify.app/)
 
 ### React + Vite
 
