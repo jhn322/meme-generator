@@ -4,16 +4,18 @@
   padding: 0;
 }
 
-body {
+body,
+html {
   font-family: "Ubuntu", sans-serif;
 }
 
 header {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 105px;
-  border-radius: 16px;
-  background: linear-gradient(90deg, #6441a5 1.18%, #8858e0 100%);
+  border-radius: 25px;
+  background: linear-gradient(90deg, #6441a5, #8858e0);
   color: #fff;
   padding: 20px;
 }
@@ -31,4 +33,39 @@ header {
 .header-text {
   font-size: 1rem;
   font-weight: 500;
+}
+
+.meme-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1.55rem auto;
+}
+
+.meme-input {
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 12px;
+  width: 380px;
+  height: 50px;
+  border: 1px solid #6441a5;
+  display: flex;
+  align-items: center;
+  margin: 0 0.3rem;
+}
+
+.meme-input::placeholder {
+  padding-left: 10px;
+}
+
+.meme-button {
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #6441a5, #8858e0);
+  color: #fff;
+  width: 180px;
+  height: 50px;
+  margin-left: 0.3rem;
+  border: none;
+  cursor: pointer;
 }
