@@ -105,3 +105,30 @@ header {
 .top {
   top: 0;
 }
+
+@media only screen and (max-width: 900px) {
+  .meme-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .meme-input {
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 0.5rem;
+  }
+
+  .meme-button {
+    margin-top: 0.3rem;
+  }
+
+  .meme-img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .meme-text {
+    font-size: 2.5rem;
+  }
+}
